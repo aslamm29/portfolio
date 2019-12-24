@@ -1,0 +1,34 @@
+#experience-section{
+    padding: 80px 15px;
+}
+#experience-section .large-title{
+    color: #c6e4ff;
+    font-weight: 900;
+    font-size: 4.5rem;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#experience-section .experience-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+}
+
+#experience-section .experience-container .large-icons .square{
+    border: 30px solid #52b8ff;
+    padding: 5px;
+    display: inline-block;
+}
+#experience-section .experience-container .large-icons .square .blue-box{
+    width: 150px;
+    height: 150px;
+    background: #52b8ff;
+    padding: 5px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
