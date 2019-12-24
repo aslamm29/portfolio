@@ -29,7 +29,7 @@
 #portfolio-section .portfolio-container{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 150px 150px 150px 150px;
+    grid-template-rows: 150px 150px 150px 150px 150px;
     grid-gap: 10px;
 }
 
@@ -55,10 +55,16 @@
     padding: 10px 20px;
     background: rgba(255, 255, 255, 0);
     transition: all .4s ease-in-out;
+    height: 100%;
+    width: 100%;
 }
 #portfolio-section .portfolio-container .box:hover .image .hover-bg{
     padding: 10px 20px;
     background: rgba(255, 255, 255, .6);
+}
+#portfolio-section .portfolio-container .box .image .hover-bg .title{
+    height: 100%;
+    width: 100%;
 }
 #portfolio-section .portfolio-container .box .image .hover-bg .title .text{
     background: black;
@@ -81,7 +87,7 @@
     grid-row: 1 / 2;
 }
 #portfolio-section .portfolio-container .box.image1 .image{
-    background: url("https://cdn.dribbble.com/users/257709/screenshots/4695956/singapoure_shot_0_5x.png");
+    background: url("https://cdn.dribbble.com/users/823181/screenshots/4511085/scenery_illustration.gif");
     height: 100%;
     width: 100%;
     background-size: cover;
@@ -93,7 +99,7 @@
     grid-row: 1 / 4;
 }
 #portfolio-section .portfolio-container .box.image2 .image{
-    background: url("https://cdn.dribbble.com/users/257709/screenshots/4695956/singapoure_shot_0_5x.png");
+    background: url("https://cdn.dribbble.com/users/107759/screenshots/3775823/angled-down-3.gif");
     height: 100%;
     width: 100%;
     background-size: cover;
@@ -105,7 +111,7 @@
     grid-row: 2 / 4;
 }
 #portfolio-section .portfolio-container .box.image3 .image{
-    background: url("https://cdn.dribbble.com/users/257709/screenshots/4695956/singapoure_shot_0_5x.png");
+    background: url("https://cdn.dribbble.com/users/115310/screenshots/4371580/magniumeliteauthor.jpg");
     height: 100%;
     width: 100%;
     background-size: cover;
@@ -117,7 +123,7 @@
     grid-row: 2 / 3;
 }
 #portfolio-section .portfolio-container .box.image4 .image{
-    background: url("https://cdn.dribbble.com/users/257709/screenshots/4695956/singapoure_shot_0_5x.png");
+    background: url("https://cdn.dribbble.com/users/374494/screenshots/4533746/p-360_viewing_property_app.png");
     height: 100%;
     width: 100%;
     background-size: cover;
@@ -129,7 +135,7 @@
     grid-row: 4 / 6;
 }
 #portfolio-section .portfolio-container .box.image5 .image{
-    background: url("https://cdn.dribbble.com/users/257709/screenshots/4695956/singapoure_shot_0_5x.png");
+    background: url("https://cdn.dribbble.com/users/1846841/screenshots/4395558/v-u-l-p-a.gif");
     height: 100%;
     width: 100%;
     background-size: cover;
@@ -141,7 +147,7 @@
     grid-row: 3 / 6;
 }
 #portfolio-section .portfolio-container .box.image6 .image{
-    background: url("https://cdn.dribbble.com/users/257709/screenshots/4695956/singapoure_shot_0_5x.png");
+    background: url("https://cdn.dribbble.com/users/115310/screenshots/4371580/magniumeliteauthor.jpg");
     height: 100%;
     width: 100%;
     background-size: cover;
