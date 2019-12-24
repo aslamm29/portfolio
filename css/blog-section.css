@@ -14,6 +14,11 @@
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 588px;
     grid-gap: 15px;
+    overflow: hidden;
+}
+#blog-section .blog-container .post{
+    position: relative;
+    transition: all .4s ease-in-out;
 }
 #blog-section .blog-container .post .post-img{
     height: 100%;
@@ -26,6 +31,10 @@
 #blog-section .blog-container .post .details{
     background: white;
     padding: 35px;
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    transform: translate3d(0, -200px, 0);
 }
 #blog-section .blog-container .post .details h4{
     font-size: 1.1rem;
@@ -43,16 +52,27 @@
     margin-bottom: 1.8rem;
     line-height: 1.5;
 }
-
-#blog-section .blog-container .post .details .more .button{
+#blog-section .blog-container .post .more{
+    position: absolute;
+    z-index: 3;
+    width: 100%;
+    bottom: 0;
+    background: white;
+    padding: 0 35px 35px;
+}
+#blog-section .blog-container .post .more .button{
     font-size: 1.3rem;
     color: #13171a;
     font-weight: 700;
     letter-spacing: 2px;
-    margin-bottom: 1.8rem;
     line-height: 1.5;
     display: inline-block;
     border-bottom: 2px solid #13171a;
     text-transform: uppercase;
     padding-bottom: 10px;
+}
+
+/* hover effect on post */
+#blog-section .blog-container .post:hover{
+    background: red;
 }
