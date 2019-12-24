@@ -60,3 +60,34 @@
     letter-spacing: 3px;
     text-transform: uppercase;
 }
+#experience-section .experience-container .info{
+
+}
+#experience-section .experience-container .info .info-box{
+    padding: 15px;
+}
+#experience-section .experience-container .info h4{
+    color: #16171c;
+    font-size: 1rem;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+#experience-section .experience-container .info .date{
+    color: #52b7ff;
+    font-size: .8rem;
+    font-weight: 600;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    padding: 15px 0;
+    display: block;
+}
+#experience-section .experience-container .info p{
+    color: #b2b2b4;
+    font-size: .9rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    display: block;
+    line-height: 1.8;
+}
