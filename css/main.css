@@ -4,6 +4,7 @@
 @import "services.css";
 @import "portfolio-section.css";
 @import "experience-section.css";
+@import "blog-section.css";
 body{
     /* background: #eeeeee; */
 }

@@ -1,0 +1,25 @@
+#blog-section{
+    padding: 100px 15px;
+    background: #f9fafc;
+}
+#blog-section .title h1{
+    font-size: 4rem;
+    text-align: center;
+    font-weight: 900;
+    margin-bottom: 80px;
+    text-transform: uppercase;
+}
+#blog-section .blog-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 500px;
+    grid-gap: 15px;
+}
+#blog-section .blog-container .post .post-img{
+    height: 100%;
+    width: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(255, 53, 53, .8);
+}
