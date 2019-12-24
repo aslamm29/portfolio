@@ -44,7 +44,7 @@
     display: inline-block;
     border-radius: 50%;
     position: relative;
-    top: 50px;
+    top: 95px;
     left: 50px;
 }
 #experience-section .experience-container .large-icons .white-box{
@@ -61,7 +61,7 @@
     text-transform: uppercase;
 }
 #experience-section .experience-container .info{
-
+    padding: 80px 0 0;
 }
 #experience-section .experience-container .info .info-box{
     padding: 15px;
