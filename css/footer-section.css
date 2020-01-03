@@ -34,3 +34,12 @@ footer h6{
     text-transform: capitalize;
     text-align: center;
 }
+
+/* Tablets */
+@media only screen and (max-width: 960px){
+
+}
+/* Phones */
+@media only screen and (max-width: 767px){
+
+}
