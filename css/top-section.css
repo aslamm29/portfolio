@@ -78,6 +78,10 @@
     #top .info .blue-square{
         display: none;
     }
+    
+    #top .info{
+        padding: 5px;
+    }
     #top .img .background-img{
         height: 100vh;
     }
