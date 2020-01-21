@@ -1,6 +1,7 @@
 @import "cssreset.css";
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,600i,700&display=swap');
 @import "landing-page/top-section.css";
+@import "landing-page/about-section.css";
 @import "landing-page/services.css";
 @import "landing-page/portfolio-section.css";
 @import "landing-page/experience-section.css";
