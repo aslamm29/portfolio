@@ -1,0 +1,56 @@
+* h1{
+    font-weight: 600;
+    font-size: 1.6rem;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+* p{
+    font-size: 1rem;
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+#skills{
+    padding: 20px 15px 0px;
+}
+#skills .title h1{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    font-weight: 700;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    color: cornflowerblue;
+}
+#skills .category{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+#skills .category .languages{
+    padding: 0px 50px;
+}
+#skills .category .frameworks{
+    padding: 0px 50px;
+}
+#skills .category .tools{
+    padding: 0px 50px;
+}
+#skills .category .design{
+    padding: 0px 50px;
+}
+
+/* Tablets */
+@media only screen and (max-width: 960px){
+    
+}
+/* Phones */
+@media only screen and (max-width: 767px){
+    #skills .category{
+        display: block;
+    }
+}
