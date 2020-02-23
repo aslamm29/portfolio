@@ -46,7 +46,9 @@
 
 /* Tablets */
 @media only screen and (max-width: 960px){
-    
+    #skills .category{
+        display: block;
+    }
 }
 /* Phones */
 @media only screen and (max-width: 767px){
