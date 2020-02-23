@@ -99,7 +99,7 @@
     grid-row: 1 / 4;
 }
 #portfolio-section .portfolio-container .box.image2 .image{
-    background: url("https://cdn.dribbble.com/users/107759/screenshots/3775823/angled-down-3.gif");
+    background: url("https://cdn.dribbble.com/users/1355613/screenshots/5972919/cook.gif");
     height: 100%;
     width: 100%;
     background-size: cover;
@@ -120,10 +120,10 @@
 }
 #portfolio-section .portfolio-container .box.image4{
     grid-column: 2 / 3;
-    grid-row: 2 / 3;
+    grid-row: 2 / 4;
 }
 #portfolio-section .portfolio-container .box.image4 .image{
-    background: url("https://cdn.dribbble.com/users/374494/screenshots/4533746/p-360_viewing_property_app.png");
+    background: url("https://cdn.dribbble.com/users/1846841/screenshots/4395558/v-u-l-p-a.gif");
     height: 100%;
     width: 100%;
     background-size: cover;
@@ -144,7 +144,7 @@
 }
 #portfolio-section .portfolio-container .box.image6{
     grid-column: 2 / 3;
-    grid-row: 3 / 6;
+    grid-row: 4 / 6;
 }
 #portfolio-section .portfolio-container .box.image6 .image{
     background: url("https://cdn.dribbble.com/users/115310/screenshots/4371580/magniumeliteauthor.jpg");
