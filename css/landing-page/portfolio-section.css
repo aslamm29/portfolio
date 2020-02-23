@@ -29,7 +29,7 @@
 #portfolio-section .portfolio-container{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 150px 150px 150px 150px 150px;
+    grid-template-rows: 150px 150px 150px 150px;
     grid-gap: 10px;
 }
 
@@ -130,6 +130,7 @@
     background-position: center center;
     background-repeat: no-repeat;
 }
+/*For Future Use
 #portfolio-section .portfolio-container .box.image5{
     grid-column: 1 / 2;
     grid-row: 4 / 6;
@@ -166,6 +167,7 @@
     background-position: center center;
     background-repeat: no-repeat;
 }
+*/
 
 /* Tablets */
 @media only screen and (max-width: 960px){
