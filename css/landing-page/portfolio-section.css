@@ -130,19 +130,20 @@
     background-position: center center;
     background-repeat: no-repeat;
 }
-/*For Future Use
+
 #portfolio-section .portfolio-container .box.image5{
     grid-column: 1 / 2;
-    grid-row: 4 / 6;
+    grid-row: 4 / 7;
 }
 #portfolio-section .portfolio-container .box.image5 .image{
-    background: url("https://cdn.dribbble.com/users/1846841/screenshots/4395558/v-u-l-p-a.gif");
+    background: url("https://cdn.dribbble.com/users/3014280/screenshots/6043082/kanban-2.jpg");
     height: 100%;
     width: 100%;
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
 }
+/*For Future Use
 #portfolio-section .portfolio-container .box.image6{
     grid-column: 2 / 3;
     grid-row: 4 / 6;
